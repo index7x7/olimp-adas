@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    .style {
+    .background-image {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     background-image: url("https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/nntperxu63j4jirbz8ks"); 
     background-repeat: no-repeat; 
@@ -21,16 +21,51 @@
     }
     .img {
         color: black;
+        width: 150px;
+        height: 150px;
+        margin-top: 40px;
     }
+    .flags {
+        width: 50px;
+        height: auto;
+    }
+    .table  {
+        border: solid 1px;
+    }
+    .paris  {
+
+    }
+
     </style>
 </head>
 <body>
-<header>
-    <div class="img">
-    <img src="emblem-oly.svg" width="61.83" height="77">
+<section class="background-image">
+    <div>
+    <img class="img" src="emblem-oly.svg" width="61.83" height="77">
    </div>
-</header>
-<div class="style">
-</div>
+</section>
+<table class="table">
+    <tr>
+      <th>Delegação</th>
+      <th>Ouro</th>
+      <th>Prata</th>
+      <th>Bronze</th>
+      <th>Total</th>
+    </tr>
+    <tr>
+      <td>
+      <img class="flags" src="https://gstatic.olympics.com/s1/f_auto/static/light/flag/paris-2024/olympic/3x2/USA.png">
+          EUA
+      </td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+  
 </body>
 </html>
